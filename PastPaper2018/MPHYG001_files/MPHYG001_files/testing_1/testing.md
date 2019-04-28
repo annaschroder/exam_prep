@@ -1,0 +1,1 @@
+Run a series of unit tests for simplemaths.py but typing pytest into the command window in the 'testing_1' folder

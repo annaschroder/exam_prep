@@ -1,0 +1,9 @@
+branch: 
+    start: [[0, 1, 0]]
+    length: 1
+    angle: 0.05
+
+
+scale: 0.5
+
+iterations: 4

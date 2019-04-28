@@ -1,0 +1,19 @@
+- shelf1: ["A", "antiB", "C"]
+  shelf2: ["antiC", "antiA"]
+  reactions: True
+  answer: 2
+- shelf1: ["A", "antiB", "C"]
+  shelf2: ["antiC", "antiA"]
+  answer: "lower: [antiB]\nupper: []"
+- shelf1: ['involucrata', 'serpyllum', 'antifirma', 'antieycholra', 'psittaccina']
+  shelf2: ['alcea', 'antiinvolucrata', 'campanula', 'antiserpyllum', 'antiinvolucrata', 'firma']
+  answer: "lower: [antieycholra, psittaccina]\nupper: [alcea, antiinvolucrata, campanula]"
+- shelf1: []
+  shelf2: ["antiC", "antiA"]
+  answer: "lower: []\nupper: [antiA, antiC]"
+- shelf1: ["antiC", "antiA"]
+  shelf2: []
+  answer: "lower: [antiC, antiA]\nupper: []"
+- shelf1: ["A", "antiantiB", "antiC"]
+  shelf2: ["antiantiC", "antiA"]
+  answer: "lower: [antiantiB]\nupper: []"
